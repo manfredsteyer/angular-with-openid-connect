@@ -1,0 +1,16 @@
+<div class="container">
+
+    <h1>Gutschein kaufen!</h1>
+
+
+    <p>Status: {{ model.message }}</p>
+
+    <p>
+        <input type="button" value="Gutschein kaufen!" ng-click="model.buyVoucher()" class="btn" />
+    </p>
+
+    <p>
+        Token: {{ oauth.getAccessToken() }}
+    </p>
+
+</div>
