@@ -25,7 +25,7 @@ app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
 
 });
 
-app.constant("voucherApiUrl", "http://localhost:52155");
+app.constant("voucherApiUrl", "http://angular.at");
 app.constant("authUrl", "https://accounts.google.com/o/oauth2/auth");
 
 app.run(function (oauthService, $http, $state, $rootScope, $location, voucherApiUrl, authUrl) {
