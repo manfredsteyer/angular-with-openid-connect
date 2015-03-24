@@ -9,6 +9,7 @@ Dabei sollte folgendes beachtet werden:
 - Der Service validiert die folgenden Claims: iss, aud, nbf, exp
 - Der Service validiert nicht die Signatur des Tokens. Dies wird den aufgerufenen Services überlassen.
 - Zum Generieren von Nonces wendet sich der Service an eine zu konfigurierende Web-API
+- Zum Testen finden sich die vom Beispiel konsumierten Services unter http://angular.at
 
 Das Beispiel konfiguriert den Service in der Datei app.js:
 
