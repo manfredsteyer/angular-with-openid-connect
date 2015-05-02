@@ -30,4 +30,4 @@ app.run(function(oauthService, $http, $state, $rootScope, $location, voucherApiU
 ```
 
 # Beschreibung des Beispiels
-Einen (Artikel mit einer Beschreibung zu diesem Beispiel)[http://www.heise.de/developer/artikel/Tipps-und-Tricks-fuer-AngularJS-Teil-3-OAuth-2-0-2620374.html] findet man (hier)[http://www.heise.de/developer/artikel/Tipps-und-Tricks-fuer-AngularJS-Teil-3-OAuth-2-0-2620374.html].
+Einen [Artikel mit einer Beschreibung zu diesem Beispiel](http://www.heise.de/developer/artikel/Tipps-und-Tricks-fuer-AngularJS-Teil-3-OAuth-2-0-2620374.html) findet man [hier](http://www.heise.de/developer/artikel/Tipps-und-Tricks-fuer-AngularJS-Teil-3-OAuth-2-0-2620374.html).
