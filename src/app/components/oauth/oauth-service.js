@@ -44,7 +44,7 @@ var oauth2 = oauth2 || {};
                             + encodeURIComponent(that.scope);
                 
                 if (that.oidc) {
-                    url += "&nonce=" + nonce;
+                    url += "&nonce=" + encodeURIComponent(nonce);
                 }
 
                 return url;
